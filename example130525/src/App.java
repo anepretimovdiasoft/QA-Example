@@ -8,8 +8,6 @@ public class App {
         a = sc.nextShort();
         b = sc.nextShort();
 
-        double c = Math.sqrt(a * a + b * b);
-
-        System.out.println(c);
+        System.out.println(Math.sqrt(a * a + b * b));
     }
 }
